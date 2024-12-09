@@ -1,0 +1,126 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Ресторан "Вкусное место"</title>  
+  <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+  <!-- Адаптивная навигационная панель -->  
+  <header>  
+    <nav>  
+      <div class="logo">    
+      </div>  
+      <ul class="nav-links">  
+        <li><a href="#" class="active">Меню</a></li>  
+        <li><a href="about.html">О нас</a></li>  
+        <li><a href="booking.html">Бронирование</a></li>  
+        <li><a href="contact.html">Контакты</a></li>  
+      </ul>  
+      <div class="burger">  
+        <div class="line1"></div>  
+        <div class="line2"></div>  
+        <div class="line3"></div>  
+      </div>  
+    </nav>  
+  </header>  
+
+  <!-- Секция с меню -->  
+  <section class="menu-section">  
+    <h1>Наше меню</h1>  
+    <div class="menu-container">  
+      <!-- Карточки с блюдами -->  
+      <div class="menu-card">  
+        <img src="WIN_20241111_15_12_49_Pro.jpg" alt="Салат Цезарь">  
+        <div class="menu-card-content">  
+          <h3>Салат Цезарь</h3>  
+          <p>Свежие листья салата ромэн, сочные куриные грудки, гренки и фирменный соус.</p>  
+          <button class="menu-card-button">Заказать</button>  
+        </div>  
+      </div>  
+      <div class="menu-card">  
+        <img src="WIN_20241111_15_12_49_Pro.jpg" alt="Стейк Рибай">  
+        <div class="menu-card-content">  
+          <h3>Стейк Рибай</h3>  
+          <p>Сочный и нежный стейк из мраморной говядины, обжаренный до идеальной прожарки.</p>  
+          <button class="menu-card-button">Заказать</button>  
+        </div>  
+      </div>  
+      <div class="menu-card">  
+        <img src="WIN_20241111_15_12_49_Pro.jpg" alt="Паста Карбонара">  
+        <div class="menu-card-content">  
+          <h3>Паста Карбонара</h3>  
+          <p>Аппетитная паста с соусом из яичных желтков, сливок и бекона.</p>  
+          <button class="menu-card-button">Заказать</button>  
+        </div>  
+      </div>  
+    </div>  
+  </section>  
+
+  <!-- Секция с информацией о ресторане -->  
+  <section class="about-section">  
+    <div class="about-container">  
+      <div class="about-content">  
+        <h2>О нашем ресторане</h2>  
+        <p>Ресторан "Вкусное место" - это уютное заведение, где вы сможете насладиться  
+          превосходными блюдами, приготовленными из самых свежих и качественных продуктов.  
+          Наша команда профессиональных поваров создает настоящие кулинарные шедевры, чтобы  
+          вы могли провести незабываемый вечер в нашем ресторане.</p>  
+      </div>  
+      <div class="about-image">  
+        <img src="https://via.placeholder.com/400x300" alt="Ресторан Вкусное место">  
+      </div>  
+    </div>  
+  </section>  
+
+  <!-- Секция с формой бронирования -->  
+  <section class="booking-section">  
+    <h2>Забронируйте свой столик</h2>  
+    <form class="booking-form">  
+      <div class="form-group">  
+        <label for="name">Ваше имя:</label>  
+        <input type="text" id="name" name="name" required>  
+      </div>  
+      <div class="form-group">  
+        <label for="date">Дата:</label>  
+        <input type="date" id="date" name="date" required>  
+      </div>  
+      <div class="form-group">  
+        <label for="time">Время:</label>  
+        <input type="time" id="time" name="time" required>  
+      </div>  
+      <div class="form-group">  
+        <label for="guests">Количество гостей:</label>  
+        <input type="number" id="guests" name="guests" min="1" max="10" required>  
+      </div>  
+      <button type="submit" class="booking-button">Забронировать</button>  
+    </form>  
+  </section>  
+
+  <!-- Секция с контактами -->  
+  <footer>  
+    <div class="contact-container">  
+      <div class="contact-info">  
+        <h3>Контакты</h3>  
+        <p>Адрес: Улица Ресторанная, 123</p>  
+        <p>Телефон: +7 (123) 456-78-90</p>  
+        <p>Email: info@vkusnoemesto.ru</p>  
+      </div>  
+      <div class="social-media">  
+        <h3>Мы в социальных сетях</h3>  
+        <ul>  
+          <li><a href="#" class="social-link">Facebook</a></li>  
+          <li><a href="#" class="social-link">Instagram</a></li>  
+          <li><a href="#" class="social-link">Twitter</a></li>  
+        </ul>  
+      </div>  
+    </div>  
+    <div class="copyright">  
+      &copy; 2023 Ресторан "Вкусное место". Все права защищены.  
+    </div>  
+  </footer>  
+
+  <script src="script.js"></script>  
+</body>  
+</html>
